@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>trAns/root//private/news_page</title>
+<!-- <link rel="stylesheet" type="text/css" href="mycss.css" />-->
+ <style>
+ * {
+ margin: 0px;
+ padding: 0px;
+ }
+ div.wrap {
+ border: 1px solid white;
+ height: auto;
+ width: 1245px;
+ margin: auto;
+ }
+ div.head {
+ background-color: #333333;
+ height: 80px;
+ width: 1245px;
+ color: white;
+ position: fixed;
+
+ }
+ div.head h1 {
+ color: white;
+ letter-spacing: 8px;
+ text-align: center;
+ padding-top: 17px;
+ text-shadow: 3px 2px gray;
+ }
+ div.dropdown {
+ background-color: lightgray;
+ position: fixed;
+ margin-top: 80px;
+ }
+ div.dropdown ul li a {
+ text-decoration: none;
+ color: white;
+ display: block;
+ }
+ div.dropdown ul li {
+ float: left;
+ height: 40px;
+ width: 155.6px;
+ background-color: black;
+ cursor: pointer;
+ -webkit-transition-duration: 0.5s; /* Safari */
+ transition-duration: 0.5s;
+ opacity: .9;
+ } 
+ div.dropdown ul li {
+ list-style: none;
+ font-size: 20px;
+ line-height: 40px;
+ text-align: center;
+ font-family: Verdana;
+ }
+ div.dropdown ul li a:hover {
+ background-color: white;
+ border: 2px solid gray;
+ color: gray;
+ display: block;
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 30px 0
+rgba(0,0,0,0.19);
+ }
+ div.dropdown ul li ul li {
+ display: none;
+ }
+ div.dropdown ul li:hover ul li {
+ display: block;
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 18px 40px 0
+rgba(0,0,0,0.19);
+}
+ div.news1 {
+ background-color: #F5F5F5;
+ height: 580px;
+ width: auto;
+ margin-top: 123px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,
+0.19);
+ }
+ div.news2 {
+ background-color: #F5F5F5;
+ height: 580px;
+ width: auto;
+ margin-top: 60px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,
+0.19);
+ }
+ div.news3 {
+ background-color: #F5F5F5;
+ height: 580px;
+ width: auto;
+ margin-top: 60px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,
+0.19);
+ }
+ div.news4 {
+ background-color: #F5F5F5;
+ height: 580px;
+ width: auto; 
+ margin-top: 60px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,
+0.19);
+ }
+ div.news5 {
+ background-color: #F5F5F5;
+ height: 580px;
+ width: auto;
+ margin-top: 60px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,
+0.19);
+ }
+ div.footer {
+ background-color: #333333;
+ height: 180px;
+ width: auto;
+ margin-top: 60px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,
+0.19);
+ }
+ div.info {
+ margin: 5px;
+ float: left;
+ width: 140px;
+ border-right: 1px solid gray;
+ height: 170px;
+ }
+ h3[id=nameHead] {
+ margin-left: 20px;
+ color: white;
+ text-decoration: underline;
+ font-family: Arial;
+ }
+ p[id=name] {
+ text-indent: 49px;
+ margin-top: 7px;
+ color: white;
+ font-family: Arial;
+ }
+ h3[id=contactHead] {
+ color: white;
+ font-family: Arial;
+ text-decoration: underline;
+ }
+ a[id=contactName] {
+ color: white;
+ }
+ h3[id=partner] {
+ margin-left: 5px;
+ color: white;
+ text-decoration: underline; 
+ font-family: Arial;
+ }
+ a[id=partnerName] {
+ margin-left: 10px;
+ color: white;
+ }
+ </style>
+</head>
+<body>
+<div class="wrap">
+ <div class="head">
+ <h1>News Feeds</h1>
+ </div>
+ <div class="dropdown">
+ <ul>
+ <li><a href="#">Global</a>
+ <ul>
+ <li><a href="#">Political1</a></li>
+ <li><a href="#">Business1</a></li>
+ <li><a href="#">Science/Tech1</a></li>
+ <li><a href="#">Sports1</a></li>
+ </ul>
+ </li>
+ <li><a href="#">National</a>
+ <ul>
+ <li><a href="#">Political2</a></li>
+ <li><a href="#">Business2</a></li>
+ <li><a href="#">Science/Tech2</a></li>
+ <li><a href="#">Sports2</a></li>
+ </ul>
+ </li>
+ <li><a href="#">About</a></li>
+ <li><a href="#"></a></li>
+ <li><a href="#"></a></li>
+ <li><a href="#"></a></li>
+ <li><a href="#"></a></li>
+ <li><a href="#"></a></li>
+</ul>
+</div>
+ <div class="news1">
+
+ </div>
+ <div class="news2">
+
+ </div>
+ <div class="news3">
+
+ </div>
+ <div class="news4">
+ 
+ </div>
+ <div class="news5">
+
+ </div>
+ <div class="footer">
+ <div class="info">
+ <h3 id="nameHead">About me: </h3>
+ <p id="name">Kartik</p>
+
+ </div>
+ <div class="info">
+ <h3 id="contactHead">Contact us: </h3>
+ <p><a id="contactName" href="#">choudharykartik87@gmail.com</a></p>
+ </div>
+ <div class="info">
+ <h3 id="partner">Partners: </h3>
+ <p><a id="partnerName" href="#">NDtv Profit</a></p>
+ <p><a id="partnerName" href="#">BBC World News</a></p>
+ <p><a id="partnerName" href="#">Times Now</a></p>
+ <p><a id="partnerName" href="#">CNBC</a></p>
+ </div>
+ </div>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+</head>
+<body>
+<?php
+
+ $curl = curl_init();
+ curl_setopt($curl, CURLOPT_URL,
+'http://profit.ndtv.com/news/corporates/article-bezos-is-selling-1-billion-of-amazon-sto
+ck-a-year-to-fund-rocket-venture-1678007');
+ curl_exec($curl);
+ //curl_setopt($curl, CURLOPT_SSL_VERFIYPEER, false);
+
+?>
+<!— Use of curl function to fetch data from other web page —>
+</body>
+</html> 
